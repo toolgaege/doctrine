@@ -1,6 +1,5 @@
 <?php
-
 // replace with file to your own project bootstrap
-require_once 'index.php';
+require_once 'baglanti.php';
 
 return \Doctrine\ORM\Tools\Console\ConsoleRunner::createHelperSet($entityManager);
